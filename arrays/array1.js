@@ -7,5 +7,5 @@ function f(arr){
     }
     return evennumberarr;
 }
-let result=f([20,51,60,32]);
+let result=f([20,51,60,58,98,108,22,32]);
 console.log(result);

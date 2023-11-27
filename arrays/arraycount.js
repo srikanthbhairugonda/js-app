@@ -1,11 +1,11 @@
 function count(arr){
-    let x=0;
+    let count=0;
     for(let i=0;i<arr.length;i++){
         if(arr[i]==0){
-            x=x+1;
+            count++;
         }
     }
-    return x;
+    return count;
 }
 let result=count([20,15,18,32,55]);
 console.log(result);

@@ -8,7 +8,7 @@ function f(x)
       return "its not odd";
     }
 }
-let r=f(5);
+let r=f(6);
 console.log(r);
-let t=f(8);
+let t=f(9);
 console.log(t);
